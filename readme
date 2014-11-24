@@ -1,0 +1,35 @@
+#
+# -------------------- DESCRIPCIÓN COMANDOS GIT ----------------------- 
+#
+
+Primeros comandos configurar la cuenta:
+CONFIGURAR
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+para ver lo que se ha configurado con el comando:
+git config –list permite ver la configuración 
+COMUNICACIÓN
+para permitir una comunicación desde el pc:
+•	Ssh-keygen
+o	se le da la ruta en donde se quiere ubicar el archivo.
+•	Luego se va a la pagina y se le da a las opciones y se va al link ssh-keys y se le da ssh-keys
+ 
+CREAR
+Para crear un nuevo proyecto en git es con el comando
+•	Git init
+COPIAR
+Para copiarlo es con 
+•	Git clone usuario@host:/ruta o http://hostremoto
+REGISTRAR PARA ENVIAR AL INDEX
+
+
+•	Git add . o git add archivo
+ENVIAR AL HEAD
+•	Git commit –m “Commit Message”
+ENVIAR REMOTO
+Git push origin master
+Para conectar sin haber clonado se utiliza
+•	Git remote add origin server
+ESTADO
+•	Git status
+
